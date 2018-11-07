@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 11.1.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: FJ3zQxONbUWO8T3kBDLgFZ4f7Si/Yzy8NL3AbYrLh9oQ/y6XlsOY3NaJ+TOcyBJ8KwPCfaiKqskf7M12+uJXlIcVNXZmKpP9gGPG7xdGp1ypOaKzGIi4IH5XT/0ClwYWfsyr8zBlm59ZCr8djamE+DWaX1PdLUBsqbUr3elcp6GRnURD2G7/a7FkjASq+g03W3mXZkyVfwPrTVgYO0EnjJadgU7HdpJuFOdAQWTb4PweGnMr7qWw8W9ZYTVDrKHUNk/7tdtPBXAaWy3dYj/HkI1/1VXzFuTBv1IbLBF4CflzjOppcOQOJYqM7WEDBnftQ5bzEkLVD/3q+QQ5KvsNVw/K0mE5bLthkjb4S0CBnN/fheUMhdmfEMvzhuTVEVyS7Z1M3vDxnSaLOsA5408hDM7tDJkfkN/NBQyv/5pja3QieK1iJ0sgW5lOreuLmbAALWMqn5+UgtpuO8BDr9x0K0BAQfJW6W8Rn/rjnY8TkGgzo+v0g35FSpLbqWOUPB+ZyKRqPULsM2jZZGjoqUoL2qA7ZmKJuU8Lr33fWNBNxy0zRZYZklp22t1jMKmXwnV/STXXpXQ9eW68Yofv84uhZG3UhXU2W3gNob8Nfc2mN0hTDbjrFANlbjJ9Z15HJxDUVqxaemy2He12v3wObLIa2/kzM1gGvCP4d0rmJ/aCe/E=
+  app:
+    production: jje-fullstackopen-blogs
