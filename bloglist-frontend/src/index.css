@@ -1,0 +1,17 @@
+.success {
+    background-color: green;
+    border: 3px solid darkgreen;
+    padding: 5px;
+}
+.fail {
+    background-color: red;
+    border: 3px solid darkred;
+    padding: 5px;
+}
+.blogdrop {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border-left: 2px solid black;
+}

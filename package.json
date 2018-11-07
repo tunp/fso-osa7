@@ -1,0 +1,27 @@
+{
+  "name": "osa4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest --verbose tests",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "watch": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.4",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "cors": "^2.8.4",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.13"
+  }
+}
